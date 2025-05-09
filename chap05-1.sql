@@ -20,5 +20,3 @@ select
 select * from department
 order by dept_id;*/
 
---—á‘è1(p.115)
-update employee set sal = sal * 1.2;

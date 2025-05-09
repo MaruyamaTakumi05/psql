@@ -56,7 +56,7 @@ group by discount;*/
  group by emp_id
  order by emp_id;*/
 
- select
+ select--7
   psales_date,
   sum(total)
   from packedsales
@@ -64,6 +64,6 @@ group by discount;*/
   order by sum(total)
   desc limit 5; 
 
-  /*select
+  select--8
   distinct emp_id
-  from packedsales;*/
+  from packedsales;

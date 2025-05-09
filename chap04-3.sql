@@ -77,10 +77,13 @@ where gender = 1
 group by dept_id 
 having sum(sal) <= 5000
 order by dept_id;*/
+
 /*select distinct dept_id
 from employee 
 order by dept_id;*/
-select distinct on (dept_id)
+
+/*select distinct on (dept_id)
 emp_name, dept_id, sal
 from employee
-order by dept_id, sal desc;
+order by dept_id, sal desc;*/
+
